@@ -1,0 +1,17 @@
+#include<AT89S52.h>
+#define ULED P2_0
+void delay(int);
+void main(){
+
+while(1){
+ULED=!ULED;
+delay(100);
+}
+}
+void delay(int time){
+int i,j;
+for(i=0;i<time;i++)
+{
+for(i=0;i<1275;i++)
+{}
+}}
